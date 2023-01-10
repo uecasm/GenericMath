@@ -1,4 +1,8 @@
-﻿namespace Library;
+﻿#if NET7_0_OR_GREATER
+using System.Numerics;
+#endif
+
+namespace Library;
 
 public static class MathUtilities
 {
